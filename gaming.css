@@ -1,0 +1,81 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    font-size: 1.8vw;
+    font-family: Madimi One;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    font-size: 5vw;
+}
+
+
+#home {
+    text-decoration: none;
+    position: absolute;
+    left: 10vw;
+    font-size: 4vw;
+    color: black;
+}
+
+nav img {
+    position: absolute;
+    right: 10vw;
+    height: 80px;
+    max-height: 12vh;
+    min-height: 6vh;
+}
+
+section {
+    position: relative;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+form {
+    position: absolute;
+    top: 9vh;
+}
+
+input[type="text"]{
+    width: 200px;
+    height:30px;
+}
+
+input[type="submit"] {
+    height: 34px;
+}
+
+#image-container {
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AgenteImmagine{
+    height: 1000px;
+}

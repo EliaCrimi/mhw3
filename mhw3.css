@@ -1,0 +1,401 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    color: white;
+    width: 100%;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    height: 87vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    background-image: url(https://wallpaperheart.com/wp-content/uploads/2018/02/cool-pattern-wallpapers-discount-designer-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 10vh;
+}
+
+nav {
+    color: black;
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    margin-top: 2vh;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8vw;
+    font-family: Madimi One;
+    position: relative;
+    font-size: 10vh;
+}
+
+#info {
+    position: absolute;
+    left: 10vw;
+    font-size: 4vw;
+}
+
+h1 {
+    font-size: 5vw;
+    position: absolute;
+    left: 38.15vw;
+}
+
+nav .bottone {
+    position: absolute;
+    width: 8.7vw;
+    font-size: 1.9vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    right: 5vw;
+    text-align: center;
+    padding: 1.5vh 1.5vw;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+    nav .bottone:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+.tele {
+    display: none;
+}
+
+.accedi {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20vh;
+    left: 10vw;
+    background-color: lightblue;
+    height: 28vh;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+    .accedi div {
+        display: flex;
+        height: 14vh;
+        border: solid green 2px;
+        margin-top: -2px;
+        background-color: black;
+        width: 40vw;
+        font-size: 2.2vh;
+        text-indent: 20px;
+        align-items: center;
+    }
+
+    .accedi img {
+        position: absolute;
+        left: 27.5vw;
+        height: 50px;
+    }
+
+#x {
+    position: absolute;
+    left: 37.5vw;
+    top: -1.5vw;
+    height: 5vw;
+}
+
+header {
+    font-weight: bold;
+    font-size: 90%;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+article p {
+    font-size: 25%;
+    color: yellow;
+}
+
+
+section {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+    section[data-grandezza="grande"] {
+        min-height: 210vh;
+        height: 1700px;
+    }
+
+    section[data-grandezza="piccolo"] {
+        min-height: 170vh;
+        height: 1150px;
+    }
+
+h2 {
+    font-size: 2.5vw;
+}
+
+.paio {
+    display: flex;
+    color: red;
+}
+
+.section-item {
+    background-color: white;
+    min-height: 30vw;
+    height: 360px;
+    width: 45vw;
+    margin: 0 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+    line-height: 4.5vw;
+
+}
+
+.primo {
+    color: black;
+}
+
+    .primo.paio a {
+        color: black;
+        text-decoration: none;
+    }
+
+.img1 {
+    background-image: url(https://wallup.net/wp-content/uploads/2018/10/04/900787-gaming-game-video-computer-gamer-poster.jpg);
+}
+
+.img2 {
+    background-image: url(https://wallpapercave.com/wp/wp1947532.jpg);
+}
+
+.img3 {
+    background-image: url(https://th.bing.com/th/id/R.d55ce4908aa69facd536bf9945e65b19?rik=1K9n6iQN%2bX7KBQ&pid=ImgRaw&r=0);
+}
+
+.img4 {
+    background-image: url(https://th.bing.com/th/id/R.8f0b802701fb5ff0968d6ec0eda4d5e2?rik=xlp3VVEt0ABeYw&pid=ImgRaw&r=0);
+}
+
+.img5 {
+    background-image: url(https://th.bing.com/th/id/OIP.GcFuD23vACCAJh-Z_kQa7QHaFQ?rs=1&pid=ImgDetMain);
+}
+
+.img6 {
+    background-image: url(https://www.sweasy26.com/emoticons/images/sad-2.png);
+}
+
+section button {
+    background-color: yellow;
+    height: 9vh;
+    font-size: 3vh;
+    width: 28vh;
+}
+
+    section button:hover {
+        background-color: green;
+    }
+
+#section2 {
+    display: flex;
+    background-color: white;
+    height: 50vh;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    #section2 p {
+        font-size: 20px;
+        margin: 10px;
+        margin-top: -30px;
+    }
+
+    #section2 em {
+        font-size: 30px;
+        font-style: normal;
+    }
+
+#section3 {
+    position: relative;
+    height: 70vh;
+    font-family: TINOS;
+}
+
+    #section3 p {
+        position: absolute;
+        top: 23vh;
+        left: 3.5vw;
+        font-size: 7vh;
+        line-height: 7vh;
+    }
+
+    #section3 em {
+        position: absolute;
+        font-style: normal;
+        font-size: 3vh;
+        left: 3.5vw;
+        top: 37vh;
+        line-height: 40px;
+    }
+
+    #section3 img {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.black {
+    color: black;
+}
+
+
+footer {
+    height: 30vh;
+    background-color: black;
+    position: relative;
+}
+
+#nome {
+    position: absolute;
+    left: 7vw;
+    top: 6vh;
+    font-size: 7vh;
+    font-family: Madimi One;
+}
+
+#quote {
+    position: absolute;
+    right: 30vw;
+    top: 12vh;
+    font-family: tinos;
+    font-size: 2.5vh;
+}
+
+#thumbsup {
+    position: absolute;
+    width: 40px;
+    top: 15vh;
+    left: 7vw;
+}
+
+
+
+@media (max-width: 700px) and (min-height: 350px) {
+    article {
+        height: 70vh;
+        font-size: 8vh;
+    }
+
+    nav {
+        margin-top: 0vh;
+        height: 7vh;
+    }
+
+    h1 {
+        left: 10vw;
+        font-size: 4vh;
+    }
+
+    #info {
+        display: none;
+    }
+
+    nav .bottone {
+        top: 0.5vh;
+        right: 10vw;
+        width: 50px;
+        font-size: 2.5vh;
+        padding: 1vh 0vw;
+    }
+
+    .tele {
+        display: block;
+    }
+
+    .normale {
+        display: none;
+    }
+
+    header {
+        margin-top: 25vh;
+    }
+
+
+    section[data-grandezza="grande"] {
+        height: 250vh;
+    }
+
+    section[data-grandezza="piccolo"] {
+        height: 170vh;
+    }
+
+    h2 {
+        font-size: 3vh;
+    }
+
+    .paio {
+        flex-direction: column;
+    }
+
+    .section-item {
+        height: 30vh;
+        width: 90vw;
+        margin-bottom: 5vh;
+        font-size: 4vh;
+        line-height: 4.2vh;
+    }
+
+    #section2 {
+        height: 35vh;
+    }
+
+    #section3 {
+        height: 55vh;
+    }
+
+        #section3 p {
+            top: 8vh;
+            width: 50vw;
+        }
+
+
+    footer {
+        height: 25vh;
+    }
+
+    #nome {
+        top: 4vh;
+    }
+
+    #thumbsup {
+        top: 12vh;
+    }
+
+    #quote {
+        right: 8vw;
+        top: 18vh;
+        font-size: 3vw;
+        text-align: right;
+    }
+}
